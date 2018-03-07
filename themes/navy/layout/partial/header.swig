@@ -19,9 +19,6 @@
         {% endfor %}
       </select>
     </div>
-    <div id="search-btn-wrap" class="main-nav-item search-btn-wrap">
-      <a id="search-btn" class="main-nav-link st-search-launcher search-btn"><i class="fa fa-search"></i></a>
-    </div>
     <a id="mobile-nav-toggle" class="mobile-nav-toggle">
       <span class="mobile-nav-toggle-bar"></span>
       <span class="mobile-nav-toggle-bar"></span>
