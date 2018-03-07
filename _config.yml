@@ -5,7 +5,7 @@ author: levy
 language: zh-cn
 timezone: UTC
 url: http://levy9527.github.io/font-end-style-guide
-root: /
+root: /font-end-style-guide
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
 code_dir: downloads/code
