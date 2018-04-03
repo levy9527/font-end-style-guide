@@ -3,11 +3,11 @@
   <title>前端代码规范</title>
   
   <subtitle>Front-End Coding Guidelines</subtitle>
-  <link href="/font-end-style-guide/atom.xml" rel="self"/>
+  <link href="/front-end-style-guide/atom.xml" rel="self"/>
   
-  <link href="http://levy9527.github.io/font-end-style-guide/"/>
+  <link href="http://levy9527.github.io/front-end-style-guide/"/>
   <updated>2018-03-07T09:15:34.000Z</updated>
-  <id>http://levy9527.github.io/font-end-style-guide/</id>
+  <id>http://levy9527.github.io/front-end-style-guide/</id>
   
   <author>
     <name>levy</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>V1.0.0 Beta Released</title>
-    <link href="http://levy9527.github.io/font-end-style-guide/news/2015/11/15/beta-released/"/>
-    <id>http://levy9527.github.io/font-end-style-guide/news/2015/11/15/beta-released/</id>
+    <link href="http://levy9527.github.io/front-end-style-guide/news/2015/11/15/beta-released/"/>
+    <id>http://levy9527.github.io/front-end-style-guide/news/2015/11/15/beta-released/</id>
     <published>2015-11-15T00:00:00.000Z</published>
     <updated>2018-03-07T09:15:34.000Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>V1.0.0 Preview (预览版)</title>
-    <link href="http://levy9527.github.io/font-end-style-guide/news/2015/11/13/first-released/"/>
-    <id>http://levy9527.github.io/font-end-style-guide/news/2015/11/13/first-released/</id>
+    <link href="http://levy9527.github.io/front-end-style-guide/news/2015/11/13/first-released/"/>
+    <id>http://levy9527.github.io/front-end-style-guide/news/2015/11/13/first-released/</id>
     <published>2015-11-13T00:00:00.000Z</published>
     <updated>2018-03-07T09:15:34.000Z</updated>
     
