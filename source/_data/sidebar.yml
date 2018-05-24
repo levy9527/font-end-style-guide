@@ -1,6 +1,9 @@
 docs:
   getting_started:
     overview: index.html
+  git:
+    git_common: git/common.html
+    git_best-practices: git/best-practices.html
   js:
     js_language: js/language.html
     js_code: js/code.html
