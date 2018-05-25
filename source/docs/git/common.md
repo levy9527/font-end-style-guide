@@ -7,13 +7,23 @@ title: 常见场景
 
 ## 本地提交
 
-### 错误暂存
+### 取消未暂存的修改
+
+```sh
+# 恢复单个文件
+git checkout -- ${file}
+
+# 恢复目录下所有文件
+git checkout -- .
+```
+
+### 取消暂存
 
 ```sh
 git reset HEAD
 ```
 
-### 错误提交
+### 取消提交
 
 ```sh
 git reset HEAD^1
