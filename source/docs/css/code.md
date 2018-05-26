@@ -184,14 +184,19 @@ article[character="juliet"] {
 
 * 选择器的嵌套层级应不大于 3 级，位置靠后的限定条件应尽可能精确。
 
+由于CSS选择器是**从右到左**进行规则匹配的, 如果选择器的嵌套层级过多, 则浏览器会从右到左,逐级遍历页面元素,从而导致浏览器匹配选择器和文档元素时所消耗的时间过长。
+
 ```css
 /* 推荐 */
 #username input {}
 .comment .avatar {}
 
 /* 不推荐 */
-.page .header .login #username input {}
-.comment div * {}
+
+/* 浏览器会寻找所有的div盒子,然后分别向上寻找li元素 以此类推, 直到找到完全符合的元素 */
+.nav ul.list li div{}
+/* 浏览器匹配页面中所有的元素后分别向上逐级匹配class为comment的元素，继而向上寻找div盒子,直到页面的根节点， */
+div .comment * {}
 ```
 
 ### 代码缩进
@@ -275,7 +280,7 @@ font-family: Arial, sans-serif;
 /* 推荐 */
 .user,
 .user-logo,
-.user-hd {
+.user-info {
   color: #ff0;
 }
 .nav{
@@ -283,7 +288,7 @@ font-family: Arial, sans-serif;
 }
 
 /* 不推荐 */
-.user, .user-logo, .user-hd {
+.user, .user-logo, .user-info {
   color: #ff0;
 }.nav{
   color: #fff;
