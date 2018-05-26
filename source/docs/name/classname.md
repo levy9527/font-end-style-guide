@@ -26,22 +26,8 @@ ClassName的命名应该尽量精短、明确，必须以**字母开头命名**�
 </style>
 ```
 
-在这样的命名规则实施一段时间后,就发现了可能存在样式全局污染的问题。
 
-当时问题是这样的: 当个别元素的样式 没有包裹在页面样式里面。
-如:
-``` vue
-<style>
-  .my-page {
-    .list {}
-  }
-  .submit-btn {}
-</style>
-```
-
-那么 .submit-btn这个样式就会暴露到全局，当其他页面也有.submit-btn这个样式的时候,那么原页面的submit-btn的样式就会被覆盖。
-
-于是,团队也会使用scoped来避免样式全局污染的问题。
+除了这样的命名规则之外, 团队在使用vue作为技术栈的项目中,也会使用scoped。
 
  当 `<style>`标签有 scoped 属性时，它的 CSS 只作用于当前组件中的元素。
 
@@ -100,162 +86,51 @@ ClassName的命名应该尽量精短、明确，必须以**字母开头命名**�
   #main-note {}
 ```
 
-
-### 更多命名方案
-
-#### BEM命名原则
-[BEM](http://getbem.com) 全称为Block-Element-Modifier
-包括以下部分
-
-* Block 所属组件名称
-* Element 组件内元素名称
-* Modifier 元素或组件修饰符
-
-其核心思想就是组件化。首先一个页面可以按层级依次划分未多个组件，其次就是单独标记这些元素。BEM通过简单的块、元素、修饰符的约束规则确保类名的唯一，同时将类选择器的语义化提升了一个新的高度。
-
-
-使用 BEM 命名规范，理论上讲，每行 `css` 代码都只有一个选择器。
-
-BEM代表 **“块（block）,元素（element）,修饰符（modifier）”**,我们常用这三个实体开发组件。
-
-在选择器中，由以下三种符号来表示扩展的关系：
-
-    -   中划线 ：仅作为连字符使用，表示某个块或者某个子元素的多单词之间的连接记号。
-    __  双下划线：双下划线用来连接块和块的子元素
-    _   单下划线：单下划线用来描述一个块或者块的子元素的一种状态
-
-    type-block__element_modifier
-
-##### 块（block）
-
-一个块是设计或布局的一部分，它有具体且唯一地意义 ，要么是语义上的要么是视觉上的。
-
-在大多数情况下，任何独立的页面元素（或复杂或简单）都可以被视作一个块。它的HTML容器会有一个唯一的CSS类名，也就是这个块的名字。
-
-针对块的CSS类名会加一些前缀（ `ui-`），这些前缀在CSS中有类似命名空间的作用。
-
-一个块的正式（实际上是半正式的）定义有下面三个基本原则：
-
-1.  CSS中只能使用类名（不能是ID）。
-2.  每一个块名应该有一个命名空间（前缀）
-3.  每一条CSS规则必须属于一个块。
-
-例如：一个自定义列表 `.list` 是一个块，通常自定义列表是算在 `mod` 类别的，在这种情况下，一个 `list` 列表的block写法应该为:
-``` css
-    .list
-```
-
-##### 元素（element）
-
-块中的子元素是块的子元素，并且子元素的子元素在 `bem` 里也被认为是块的直接子元素。**一个块中元素的类名必须用父级块的名称作为前缀。**
-
-如上面的例子，`li.item` 是列表的一个子元素，
-```css
-	  /* 推荐 */
-    .list{}
-    .list__item{}
-
- 	  /* 不推荐 */
-    .list{}
-    .list .item{}
-```
-
-##### 修饰符（modifier）
-
-一个“修饰符”可以理解为一个块的特定状态，标识着它持有一个特定的属性。
-
-用一个例子来解释最好不过了。一个表示按钮的块默认有三个大小：小，中，大。为了避免创建三个不同的块，最好是在块上加修饰符。这个修饰符应该有个名字（比如：`size` ）和值（ `small`，`normal` 或者 `big` ）。
-
-如上面的例子中，表示一个选中的列表，和一个激活的列表项
-
-```css
-    /* 推荐 */
-    .list{}
-    .list_select{}
-    .list__item{}
-    .list__item_active{}
-
-     /* 不推荐 */
-    .list{}
-    .list.select{}
-    .list .item{}
-    .list .item.active{}
-```
-
-
-综合例子:
- ```html
- /* html */
-<form class="form form--theme-xmas form--simple">
-  <input class="form__input" type="text" />
-  <input
-    class="form__submit form__submit--disabled"
-    type="submit" />
-</form>
- ```
-
-  ```css
-  /* css */
-.form { }
-.form--theme-xmas { }
-.form--simple { }
-.form__input { }
-.form__submit { }
-.form__submit--disabled { }
-  ```
-
-使用BEM可以让classname命名变得简单易懂，可读性更强，利于项目管理和多人协作，
-并且BEM命名规则中classname没有嵌套,便于维护、复用。
-但是，BEM 强调单一职责原则和单一样式来源原则，意味着传统纯手工 CSS 可能会产生大量重复的代码。
-
-
-#### OOCSS命名原则
-[OOCSS](http://oocss.org/) (Object-Oriented CSS) 即面向对象CSS
-主要有两个规则:
-1. 分离结构和皮肤（separate structure and skin）
-
- 皮肤即一些重复的视觉特征，如边框、背景、颜色，分离是为了更多的复用；结构是指元素大小特征，如高度，宽度，边距等等。
- ```css
-   // 推荐
-   .button {
-     padding: 10px;
-   }
-   .widget {
-     overflow: auto;
-   }
-   .skin {
-     box-shadow: rgba(0, 0, 0, .5) 2px 2px 5px;
-   }
-
-  // 不推荐
- .button {
-   padding: 10px;
-   box-shadow: rgba(0, 0, 0, .5) 2px 2px 5px;
- }
- .widget {
-   overflow: auto;
-   box-shadow: rgba(0, 0, 0, .5) 2px 2px 5px;
- }
- ```
- 2. 分离容器和内容（separate container an content）
-
-打破容器内元素对于容器的依赖，元素样式应该独立存在。
+ - 在子模块数量可预测的情况下，继承父模块的命名前缀
 
 ```html
-  // 推荐
-  <div class="container"><h2 class="category">xxx</h2></div>
-  .category {...} //h2元素 有一个独立的选择器
-
-  //不推荐
-  <div class="container"><h2>xxx</h2></div>
-  .container h2 {...} // h2元素依赖于父元素 container
+<div class="modulename">
+	<div class="modulename_cover"></div>
+	<div class="modulename_info"></div>
+</div>
 ```
 
-使用OOCSS原则，遵循的是DRY(don't repeat yourself)的原则,能够减少大量的重复的样式代码，
-提高代码复用率。同时，视觉元素可以灵活组合各个类名，展示不同的效果，丰富的类名也同时使得元素有着更好的可读性；
-另一方面，由于容器和内容的分离，CSS 完成了与 HTML 结构解耦。
-但同时也会带来一些缺点，抽象复用会使class越来越多，极端情况会产生可能产生很多原子类，
-这对于那些偏向于“单一来源原则”的开发者来说并不受欢迎。
+ 当子孙模块超过4级或以上的时候，可以考虑在祖先模块内具有识辨性的独立缩写作为新的子孙模块
+
+```html
+  /* 推荐 */
+  <div class="modulename">
+    <div class="modulename_cover"></div>
+    <div class="modulename_info">
+      <div class="modulename_info_user">
+      <div class="modulename_info_user_img">
+        <img src="" alt="">
+        <!-- 这个时候 miui 为 modulename_info_user_img 首字母缩写-->
+        <div class="miui_tit"></div>
+        <div class="miui_txt"></div>
+        ...
+        </div>
+      </div>
+      <div class="modulename_info_list"></div>
+    </div>
+  </div>
+
+/* 不推荐 */
+<div class="modulename">
+  <div class="modulename_cover"></div>
+  <div class="modulename_info">
+    <div class="modulename_info_user">
+    	<div class="modulename_info_user_img">
+    	  <img src="" alt="">
+    	  <div class="modulename_info_user_img_tit"></div>
+    	  <div class="modulename_info_user_img_txt"></div>
+    			...
+        </div>
+      </div>
+      <div class="modulename_info_list"></div>
+     </div>
+   </div>
+```
 
 ### 常用命名推荐
 
