@@ -11,8 +11,8 @@ JavaScript 是一种客户端脚本语言，这里列出了编写 JavaScript 时
   - String
   - Number
   - Boolean
-  - Null
-  - Undefined
+  - null
+  - undefined
   - Symbol
 
   ```js
