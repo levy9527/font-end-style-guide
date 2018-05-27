@@ -4,8 +4,8 @@ description: "Best Coding Guidelines For Front-End Developer."
 author: levy
 language: zh-cn
 timezone: UTC
-url: http://levy9527.github.io/font-end-style-guide
-root: /font-end-style-guide
+url: http://levy9527.github.io/front-end-style-guide
+root: /front-end-style-guide
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
 code_dir: downloads/code
@@ -19,7 +19,7 @@ per_page: 0
 theme: navy
 deploy:
   type: git
-  repo: https://github.com/levy9527/font-end-style-guide.git
+  repo: https://github.com/levy9527/front-end-style-guide.git
   branch: gh-pages
 
 disqus_shortname:
@@ -28,7 +28,7 @@ baidu_analytics: bb4b770d7fdf4e05245cd1327199d813
 fb_admins: 100000247608790
 #swiftype_key: nxhXzi1rDss_9_P_6zBa
 #twitter: o2circle
-github: levy9527/font-end-style-guide
+github: levy9527/front-end-style-guide
 gh:
   user: levy9527
-  repo: font-end-style-guide
+  repo: front-end-style-guide
