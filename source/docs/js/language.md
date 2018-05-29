@@ -7,12 +7,14 @@ JavaScript 是一种客户端脚本语言，这里列出了编写 JavaScript 时
 
 ### 类型
 
+需要注意：Null 和 Undefined 是JavaScript的两种基本类型，null 和 undefined 他们的值
+
 - 基本类型
   - String
   - Number
   - Boolean
-  - null
-  - undefined
+  - Null
+  - Undefined
   - Symbol
 
   ```js
