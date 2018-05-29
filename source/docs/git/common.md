@@ -94,6 +94,19 @@ git checkout --orphan ${branch}
 git push --force
 ```
 
+### 取消错误的推送
+
+适用于在发现推送的代码出错后, 需要取消错误的推送的场景
+
+```sh
+# 查看提交的hash
+git log
+# 使用相应的hash回滚
+git reset ${hash}
+# 覆盖远程仓库的代码
+git push --force
+```
+
 ## 其他
 
 ### 记住账号密码
