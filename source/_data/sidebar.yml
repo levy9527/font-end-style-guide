@@ -22,8 +22,8 @@ docs:
     html_note: html/note.html
     html_template: html/template.html
     html_webapp: html/webapp.html
-  image:
-    image_format: image/format.html
-    image_size: image/size.html
-    image_quality: image/quality.html
-    image_import: image/import.html
+#  image:
+#    image_format: image/format.html
+#    image_size: image/size.html
+#    image_quality: image/quality.html
+#    image_import: image/import.html
