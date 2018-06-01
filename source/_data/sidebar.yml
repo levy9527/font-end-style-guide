@@ -4,6 +4,11 @@ docs:
   git:
     git_common: git/common.html
     git_best-practices: git/best-practices.html
+  name:
+    name_dir: name/dir.html
+    name_image: name/image.html
+    name_htmlcss: name/htmlcss.html
+    name_class: name/classname.html
   js:
     js_language: js/language.html
     js_code: js/code.html
@@ -19,11 +24,6 @@ docs:
     html_note: html/note.html
     html_template: html/template.html
     html_webapp: html/webapp.html
-  name:
-    name_dir: name/dir.html
-    name_image: name/image.html
-    name_htmlcss: name/htmlcss.html
-    name_class: name/classname.html
   image:
     image_format: image/format.html
     image_size: image/size.html
