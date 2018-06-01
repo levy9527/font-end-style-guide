@@ -96,13 +96,20 @@ git push --force
 
 ### 取消错误的推送
 
-适用于在发现推送的代码出错后, 需要取消错误的推送的场景
+适用于推送了错误的提交后, 想取消该推送的场景
 
 ```sh
+# 更新代码
+# 一定要更新最新的代码! 以免覆盖掉其他协作者的推送!
+git pull
+
 # 查看提交的hash
 git log
+
 # 使用相应的hash回滚
+# 注意: 回滚后 在${hash}之后提交的代码 都会在 Changes to be committed 中
 git reset ${hash}
+
 # 覆盖远程仓库的代码
 git push --force
 ```
