@@ -10,9 +10,9 @@ title: 文件命名
 	fem-detail.html
 
 	<!-- Stylus -->
-	fem.stylus
-	fem-list.stylus
-	fem-detail.stylus
+	fem.styl
+	fem-list.styl
+	fem-detail.styl
 	
 	<!-- JavaScript -->
   fem.js
