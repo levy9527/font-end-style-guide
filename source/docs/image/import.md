@@ -30,7 +30,7 @@ HTML 中图片引入不需添加 width、height 属性，alt 属性应该写上
 CSS 中图片引入不需要引号
 
 ```css
-.jdc {
+.fem {
     background-image: url(icon.png);
 }
 ```
