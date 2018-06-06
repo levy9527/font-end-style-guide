@@ -90,8 +90,8 @@ ClassName的命名应该尽量精短、明确，必须以**字母开头命名**�
 
 ```html
 <div class="modulename">
-	<div class="modulename-cover"></div>
-	<div class="modulename-info"></div>
+  <div class="modulename-cover"></div>
+  <div class="modulename-info"></div>
 </div>
 ```
 
