@@ -90,8 +90,8 @@ ClassName的命名应该尽量精短、明确，必须以**字母开头命名**�
 
 ```html
 <div class="modulename">
-	<div class="modulename_cover"></div>
-	<div class="modulename_info"></div>
+	<div class="modulename-cover"></div>
+	<div class="modulename-info"></div>
 </div>
 ```
 
@@ -100,34 +100,34 @@ ClassName的命名应该尽量精短、明确，必须以**字母开头命名**�
 ```html
   /* 推荐 */
   <div class="modulename">
-    <div class="modulename_cover"></div>
-    <div class="modulename_info">
-      <div class="modulename_info_user">
-      <div class="modulename_info_user_img">
+    <div class="modulename-cover"></div>
+    <div class="modulename-info">
+      <div class="modulename-info-user">
+      <div class="modulename-info-user-img">
         <img src="" alt="">
-        <!-- 这个时候 miui 为 modulename_info_user_img 首字母缩写-->
-        <div class="miui_tit"></div>
-        <div class="miui_txt"></div>
+        <!-- 这个时候 miui 为 modulename-info-user-img 首字母缩写-->
+        <div class="miui-tit"></div>
+        <div class="miui-txt"></div>
         ...
         </div>
       </div>
-      <div class="modulename_info_list"></div>
+      <div class="modulename-info-list"></div>
     </div>
   </div>
 
 /* 不推荐 */
 <div class="modulename">
-  <div class="modulename_cover"></div>
-  <div class="modulename_info">
-    <div class="modulename_info_user">
-    	<div class="modulename_info_user_img">
+  <div class="modulename-cover"></div>
+  <div class="modulename-info">
+    <div class="modulename-info-user">
+    	<div class="modulename-info-user-img">
     	  <img src="" alt="">
-    	  <div class="modulename_info_user_img_tit"></div>
-    	  <div class="modulename_info_user_img_txt"></div>
+    	  <div class="modulename-info-user-img-tit"></div>
+    	  <div class="modulename-info-user-img-txt"></div>
     			...
         </div>
       </div>
-      <div class="modulename_info_list"></div>
+      <div class="modulename-info-list"></div>
      </div>
    </div>
 ```
