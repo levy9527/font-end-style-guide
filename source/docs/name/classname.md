@@ -1,14 +1,13 @@
-title: ClassName命名
+title: class命名
 ---
 
-ClassName的命名应该尽量精短、明确，必须以**字母开头命名**，且**全部字母为小写**，单词之间**统一使用中划线** “-” 连接
+class的命名应该尽量精短、明确，必须以**字母开头命名**，且**全部字母为小写**，单词之间**统一使用中划线** “-” 连接
 
 ### 命名原则
-现在前端开发团队使用的是命名原则是 在页面代码的根元素加上 `class=${pageName}`
+现在前端开发团队使用的是命名原则是 在页面代码的根元素加上 `class=${page-name}`
 并且在后续的css代码中, 该页面的类选择器都放在.pageName中
 
 ```vue
-// my-page.vue
 <template>
   <div class="my-page">
     <div class="list"></div>
@@ -19,10 +18,10 @@ ClassName的命名应该尽量精短、明确，必须以**字母开头命名**�
 
 ```css
 <style>
-  .my-page {
-    .list {}
-    .submit-btn {}
-  }
+.my-page {
+  .list {}
+  .submit-btn {}
+}
 </style>
 ```
 
@@ -35,10 +34,10 @@ ClassName的命名应该尽量精短、明确，必须以**字母开头命名**�
 
 ```vue
 <style scoped>
-  .my-page {
-    .list {}
-    .submit-btn {}
-  }
+.my-page {
+  .list {}
+  .submit-btn {}
+}
 </style>
 ```
 
