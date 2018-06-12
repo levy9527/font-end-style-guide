@@ -4,6 +4,7 @@ docs:
   git:
     git_common: git/common.html
     git_best-practices: git/best-practices.html
+    git_workflow: git/workflow.html
   name:
     name_file: name/file.html
     name_class: name/classname.html

@@ -26,6 +26,7 @@ sidebar:
     git: Git规范
     git_best-practices: 最佳实践
     git_common: 常见场景
+    git_workflow: 工作流
     html: HTML 规范
     html_code: 代码规范
     html_note: 注释规范
