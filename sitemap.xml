@@ -2,254 +2,261 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/git/common.html</loc>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/git/workflow.html</loc>
     
-    <lastmod>2018-05-24T14:40:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/git/best-practices.html</loc>
-    
-    <lastmod>2018-05-24T13:43:02.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/news/2015/11/13/first-released/</loc>
-    
-    <lastmod>2018-03-07T09:15:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/news/2015/11/15/beta-released/</loc>
-    
-    <lastmod>2018-03-07T09:15:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/sass.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/contributing.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/index.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/plugins/index.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/themes/index.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/common/markdown.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/code.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/jdc_fd_web_final_2.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/note.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/template.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/webapp.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/code.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/note.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/jdc_fd_guide_css.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/common.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/reset.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/issues.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/webkit.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/format.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/import.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/jdc_fd_guide_image.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/quality.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/size.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/js/code.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/js/language.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
+    <lastmod>2018-06-12T07:11:11.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://levy9527.github.io/front-end-style-guide/docs/name/classname.html</loc>
     
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
+    <lastmod>2018-06-11T09:01:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/name/dir.html</loc>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/git/common.html</loc>
     
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/name/htmlcss.html</loc>
-    
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
+    <lastmod>2018-06-09T08:36:08.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/name/image.html</loc>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/import.html</loc>
     
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
+    <lastmod>2018-06-09T08:36:08.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://levy9527.github.io/front-end-style-guide/docs/name/jdc_fd_guide_name.html</loc>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/name/file.html</loc>
     
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
+    <lastmod>2018-06-09T08:36:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/git/best-practices.html</loc>
+    
+    <lastmod>2018-06-09T08:36:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/code.html</loc>
+    
+    <lastmod>2018-06-09T08:36:08.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://levy9527.github.io/front-end-style-guide/index.html</loc>
     
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
+    <lastmod>2018-06-09T08:36:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/index.html</loc>
+    
+    <lastmod>2018-06-01T03:47:09.549Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/js/code.html</loc>
+    
+    <lastmod>2018-05-29T16:39:09.751Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/js/language.html</loc>
+    
+    <lastmod>2018-05-29T15:39:17.109Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/plugins/index.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.728Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/themes/index.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.728Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/name/dir.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.727Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/name/jdc_fd_guide_name.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.727Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/name/image.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.727Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/issues.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.726Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/size.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.726Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/webapp.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.725Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/format.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.725Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/jdc_fd_guide_image.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.725Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/image/quality.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.725Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/code.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/jdc_fd_web_final_2.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/note.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/html/template.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/webkit.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/sass.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.723Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/reset.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.723Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://levy9527.github.io/front-end-style-guide/docs/css/query.html</loc>
     
-    <lastmod>2018-03-07T08:44:57.000Z</lastmod>
+    <lastmod>2018-04-17T04:19:12.723Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/jdc_fd_guide_css.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.723Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/css/note.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.723Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/news/2015/11/15/beta-released/</loc>
+    
+    <lastmod>2018-04-17T04:19:12.722Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/common/markdown.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.722Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/common.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.722Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/docs/contributing.html</loc>
+    
+    <lastmod>2018-04-17T04:19:12.722Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://levy9527.github.io/front-end-style-guide/news/2015/11/13/first-released/</loc>
+    
+    <lastmod>2018-04-17T04:19:12.721Z</lastmod>
     
   </url>
   
