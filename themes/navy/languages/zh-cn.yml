@@ -23,9 +23,10 @@ sidebar:
     overview: 概述
     common: 通用
     issues: 常见问题
-    git: git规范
+    git: Git规范
     git_best-practices: 最佳实践
     git_common: 常见场景
+    git_workflow: 工作流
     html: HTML 规范
     html_code: 代码规范
     html_note: 注释规范
@@ -47,7 +48,7 @@ sidebar:
     name_dir: 目录命名
     name_file: 文件命名
     name_image: 图片命名
-    name_class: ClassName 命名
+    name_class: class命名
     js: JS 规范
     js_language: 语言规范
     js_code: 代码规范
